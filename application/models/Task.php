@@ -20,6 +20,9 @@ class Task extends Entity
     // ID has to be set
     public function setId($value)
     {
+
+        if (!is_numeric($value))
+          throw new Exception('An Id can only be numeric');
         if (empty($value))
             throw new Exception('An Id must have a value');
     }

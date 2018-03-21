@@ -9,8 +9,8 @@
         {display_tasks}
         <tr>
             <td>{id}</td>
-            <td>{task}</td>
-        <td>{group}</td>
+            <td>{desc}</td>
+            <td>{group}</td>
         </tr>
         {/display_tasks}
 </table>

@@ -9,7 +9,7 @@
 class Task extends Entity
 {
     public $id;
-    public $task;
+    public $desc;
     public $priority;
     public $size;
     public $group;
@@ -27,13 +27,13 @@ class Task extends Entity
     }
 
     // Name has to be set and cannot be longer than 64 characters
-    public function setTask($value)
+    public function setDesc($value)
     {
         if (empty($value))
             throw new Exception('A Name cannot be empty');
         if (strlen($value) > 64)
             throw new Exception('A Name cannot be longer than 64 characters');
-        $this->task = $value;
+        $this->desc = $value;
     }
 
     // Priority has to be non-zero, set, numeric and less than 4

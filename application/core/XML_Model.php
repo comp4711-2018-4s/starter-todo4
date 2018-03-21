@@ -110,19 +110,19 @@ class XML_Model extends Memory_Model
 		    	$first = false; 
 
 		    	//var_dump($oj->children());
-		    	$one = new stdClass();
+		    	$one = new stdclass();
 
 		    	//get objects one by one
 		    	foreach ($oj as $key => $value) {
 		    		$one->$key = (string)$value;
 		    	}
-		    	$this->_data[$dataindex++] =$one; 
-		    }	
+		    	$this->_data[$dataindex++] =$one;
+		    }
 
 
 		 	//var_dump($this->_data);
 		} else {
-		    exit('Failed to open the xml file.');
+		    exit('failed to open the xml file.');
 		}
 
 		// --------------------

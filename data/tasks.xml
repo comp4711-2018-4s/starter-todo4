@@ -84,13 +84,13 @@ Tasks xml storage for lab 8.
         <size>1</size>
         <group>1</group>
         <flag>1</flag>
-        <desc>Buy milk & bread</desc>
+        <desc>Buy milk &amp; bread</desc>
     </task>
     <task id="14">
         <priority>1</priority>
         <size>3</size>
         <group>1</group>
-        <desc>Read War & Peace</desc>
+        <desc>Read War &amp; Peace</desc>
     </task>
     <task id="15">
         <priority>1</priority>

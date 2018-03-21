@@ -17,6 +17,7 @@ application/logs/*
 /vendor/
 /nbproject/private/
 /nbproject/
+tmp/*
 
 #composer
 vendor/

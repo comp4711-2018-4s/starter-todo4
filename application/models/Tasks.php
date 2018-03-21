@@ -2,10 +2,11 @@
 
 class Tasks extends XML_Model
 {
-
+    private $CI; // use this to reference the CI instance
     public function __construct()
     {
         parent::__construct(APPPATH . '../data/tasks.xml', 'id');
+        $this->CI = &get_instance(); // retrieve the CI instance
     }
 
     function getCategorizedTasks()
@@ -18,7 +19,7 @@ class Tasks extends XML_Model
 
         // substitute the category name, for sorting
         foreach ($undone as $task)
-            $task->group = $this->app->group($task->group);
+            $task->group = $this->CI->app->group($task->group);
 
         // order them by category
         usort($undone, array("Tasks", "orderByCategory"));
@@ -59,7 +60,7 @@ class Tasks extends XML_Model
   		{
   			foreach ($tasks as $task) {
   				$record = new stdClass();
-  				$record->id = (int) $task->id;
+  				$record->id = (int) $task['id'];
   				$record->task = (string) $task->task;
   				$record->priority = (int) $task->priority;
   				$record->size = (int) $task->size;

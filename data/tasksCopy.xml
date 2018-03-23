@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Tasks xml storage for lab 8.
+
+-->
+
+<tasks>
+    <task id="1">
+        <priority>3</priority>
+        <size>2</size>
+        <group>2</group>
+        <deadline>20170219</deadline>
+        <status>1</status>
+        <desc>COMP1234 assignment</desc>
+    </task>
+    <task id="2">
+        <priority>2</priority>
+        <size>2</size>
+        <group>1</group>
+        <status>2</status>
+        <desc>Mow the lawn</desc>
+    </task>
+    <task id="3">
+        <priority>2</priority>
+        <size>2</size>
+        <group>1</group>
+        <desc>Wash the car</desc>
+    </task>
+    <task id="4">
+        <priority>1</priority>
+        <size>2</size>
+        <group>1</group>
+        <desc>Paint the fence</desc>
+    </task>
+    <task id="6">
+        <priority>1</priority>
+        <size>2</size>
+        <group>4</group>
+        <desc>Intramural hockey game</desc>
+    </task>
+    <task id="7">
+        <priority>3</priority>
+        <size>3</size>
+        <group>4</group>
+        <deadline>20170305</deadline>
+        <status>2</status>
+        <desc>Canucks hockey game</desc>
+    </task>
+    <task id="8">
+        <priority>2</priority>
+        <size>1</size>
+        <group>3</group>
+        <desc>Buy steel-toed boots</desc>
+    </task>
+    <task id="9">
+        <priority>1</priority>
+        <size>3</size>
+        <group>3</group>
+        <deadline>20161231</deadline>
+        <status>1</status>
+        <desc>Learn French</desc>
+    </task>
+    <task id="10">
+        <priority>2</priority>
+        <size>1</size>
+        <group>4</group>
+        <desc>Hit the gym</desc>
+    </task>
+    <task id="11">
+        <priority>3</priority>
+        <size>1</size>
+        <group>1</group>
+        <desc>Pay bills</desc>
+    </task>
+    <task id="12">
+        <priority>2</priority>
+        <size>1</size>
+        <group>1</group>
+        <desc>Meet George</desc>
+    </task>
+    <task id="13">
+        <priority>2</priority>
+        <size>1</size>
+        <group>1</group>
+        <flag>1</flag>
+        <desc>Buy milk &amp; bread</desc>
+    </task>
+    <task id="14">
+        <priority>1</priority>
+        <size>3</size>
+        <group>1</group>
+        <desc>Read War &amp; Peace</desc>
+    </task>
+    <task id="15">
+        <priority>1</priority>
+        <size>4</size>
+        <group>1</group>
+        <desc>Organize the study</desc>
+    </task>
+</tasks>
